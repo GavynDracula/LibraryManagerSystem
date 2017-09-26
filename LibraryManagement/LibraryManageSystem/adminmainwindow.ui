@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AdminMainWindow</class>
+ <widget class="QMainWindow" name="AdminMainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>882</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>880</width>
+      <height>581</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>882</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <widget class="QMenu" name="menuBook">
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>Book</string>
+    </property>
+    <addaction name="actionEnter_New"/>
+    <addaction name="separator"/>
+    <addaction name="actionRemove"/>
+    <addaction name="separator"/>
+    <addaction name="actionShelve"/>
+    <addaction name="separator"/>
+    <addaction name="actionUnShelve"/>
+    <addaction name="separator"/>
+    <addaction name="actionBookInquire"/>
+   </widget>
+   <widget class="QMenu" name="menuReader">
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>Reader</string>
+    </property>
+    <addaction name="actionRegister"/>
+    <addaction name="separator"/>
+    <addaction name="actionNullify"/>
+    <addaction name="separator"/>
+    <addaction name="actionModify"/>
+    <addaction name="separator"/>
+    <addaction name="actionReaderInquire"/>
+   </widget>
+   <widget class="QMenu" name="menuBorrow_Return">
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>Borrow/Return</string>
+    </property>
+    <addaction name="actionBorrow"/>
+    <addaction name="separator"/>
+    <addaction name="actionReturn"/>
+    <addaction name="separator"/>
+    <addaction name="actionPay_Fines"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionAbout_Program"/>
+    <addaction name="separator"/>
+    <addaction name="actionAbout_Me"/>
+   </widget>
+   <addaction name="menuBook"/>
+   <addaction name="menuReader"/>
+   <addaction name="menuBorrow_Return"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <action name="actionBorrow">
+   <property name="text">
+    <string>Borrow Book</string>
+   </property>
+  </action>
+  <action name="actionReturn">
+   <property name="text">
+    <string>Return Book</string>
+   </property>
+  </action>
+  <action name="actionRegister">
+   <property name="text">
+    <string>Register</string>
+   </property>
+  </action>
+  <action name="actionNullify">
+   <property name="text">
+    <string>Nullify</string>
+   </property>
+  </action>
+  <action name="actionModify">
+   <property name="text">
+    <string>Modify</string>
+   </property>
+  </action>
+  <action name="actionReaderInquire">
+   <property name="text">
+    <string>Inquire</string>
+   </property>
+  </action>
+  <action name="actionShelve">
+   <property name="text">
+    <string>Shelve</string>
+   </property>
+  </action>
+  <action name="actionUnShelve">
+   <property name="text">
+    <string>UnShelve</string>
+   </property>
+  </action>
+  <action name="actionBookInquire">
+   <property name="text">
+    <string>Inquire</string>
+   </property>
+  </action>
+  <action name="actionPay_Fines">
+   <property name="text">
+    <string>Pay Fines</string>
+   </property>
+  </action>
+  <action name="actionAbout_Program">
+   <property name="text">
+    <string>About Program</string>
+   </property>
+  </action>
+  <action name="actionAbout_Me">
+   <property name="text">
+    <string>About Me</string>
+   </property>
+  </action>
+  <action name="actionEnter_New">
+   <property name="text">
+    <string>Enter New</string>
+   </property>
+  </action>
+  <action name="actionRemove">
+   <property name="text">
+    <string>Remove</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

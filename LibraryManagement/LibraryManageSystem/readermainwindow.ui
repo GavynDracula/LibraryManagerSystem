@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ReaderMainWindow</class>
+ <widget class="QMainWindow" name="ReaderMainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>882</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>880</width>
+      <height>581</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>882</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <widget class="QMenu" name="menuInquire">
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="title">
+     <string>Inquire</string>
+    </property>
+    <addaction name="actionPersonal_Info"/>
+    <addaction name="separator"/>
+    <addaction name="actionBorrowed_Books"/>
+    <addaction name="separator"/>
+    <addaction name="actionBooksWant"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionAbout_Program"/>
+    <addaction name="separator"/>
+    <addaction name="actionAbout_Me"/>
+   </widget>
+   <widget class="QMenu" name="menuRenew">
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>Renew</string>
+    </property>
+    <addaction name="actionRenew_One"/>
+   </widget>
+   <addaction name="menuInquire"/>
+   <addaction name="menuRenew"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <action name="actionPersonal_Info">
+   <property name="text">
+    <string>Personal Info</string>
+   </property>
+  </action>
+  <action name="actionBooksWant">
+   <property name="text">
+    <string>Books You Want</string>
+   </property>
+  </action>
+  <action name="actionBorrowed_Books">
+   <property name="text">
+    <string>Borrowed Books</string>
+   </property>
+  </action>
+  <action name="actionAbout_Program">
+   <property name="text">
+    <string>About Program</string>
+   </property>
+  </action>
+  <action name="actionAbout_Me">
+   <property name="text">
+    <string>About Me</string>
+   </property>
+  </action>
+  <action name="actionRenew_One">
+   <property name="text">
+    <string>Renew One</string>
+   </property>
+  </action>
+  <action name="actionRenew_All">
+   <property name="text">
+    <string>Renew All</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
